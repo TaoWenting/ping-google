@@ -1,4 +1,4 @@
-import os
+import os, sys
 def check_ping():
     hostname = "google.com"
     response = os.system("ping -c 1 " + hostname)
