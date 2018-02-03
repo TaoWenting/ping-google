@@ -9,3 +9,7 @@ def check_ping():
         pingstatus = "Network Error"
 
     return pingstatus
+
+if __name__ == '__main__':
+	pingstatus = check_ping()
+	print pingstatus
